@@ -3,9 +3,9 @@ name: GitHub Actions Demo
 on: [push]
 
 jobs:
-	my-first-job:
-		runs-on: ubuntu-latest
-		steps:
-      - name: hello
-      - run: |
-					echo "hello world"
+  my-first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: hellp
+        run:  |
+          echo "hello"
