@@ -1,0 +1,212 @@
+2023-04-06 10:07:31,826 INFO    StreamThr :15580 [internal.py:wandb_internal():86] W&B internal server running at pid: 15580, started at: 2023-04-06 10:07:31.818882
+2023-04-06 10:07:31,828 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: status
+2023-04-06 10:07:31,829 INFO    WriterThread:15580 [datastore.py:open_for_write():85] open: C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\run-bmv4lo5l.wandb
+2023-04-06 10:07:31,831 DEBUG   SenderThread:15580 [sender.py:send():375] send: header
+2023-04-06 10:07:31,831 DEBUG   SenderThread:15580 [sender.py:send():375] send: run
+2023-04-06 10:07:32,665 INFO    SenderThread:15580 [dir_watcher.py:__init__():219] watching files in: C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\files
+2023-04-06 10:07:32,665 INFO    SenderThread:15580 [sender.py:_start_run_threads():1124] run started: bmv4lo5l with start time 1680768450.887192
+2023-04-06 10:07:32,666 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: summary_record
+2023-04-06 10:07:32,667 INFO    SenderThread:15580 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-06 10:07:32,672 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: check_version
+2023-04-06 10:07:32,672 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: check_version
+2023-04-06 10:07:33,680 INFO    Thread-156:15580 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\files\wandb-summary.json
+2023-04-06 10:07:33,972 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: run_start
+2023-04-06 10:07:33,974 DEBUG   HandlerThread:15580 [system_info.py:__init__():31] System info init
+2023-04-06 10:07:33,974 DEBUG   HandlerThread:15580 [system_info.py:__init__():46] System info init done
+2023-04-06 10:07:33,974 INFO    HandlerThread:15580 [system_monitor.py:start():181] Starting system monitor
+2023-04-06 10:07:33,988 INFO    SystemMonitor:15580 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-04-06 10:07:33,988 INFO    HandlerThread:15580 [system_monitor.py:probe():201] Collecting system info
+2023-04-06 10:07:33,990 INFO    SystemMonitor:15580 [interfaces.py:start():190] Started cpu monitoring
+2023-04-06 10:07:33,994 DEBUG   HandlerThread:15580 [system_info.py:probe():195] Probing system
+2023-04-06 10:07:33,996 INFO    SystemMonitor:15580 [interfaces.py:start():190] Started disk monitoring
+2023-04-06 10:07:33,998 INFO    SystemMonitor:15580 [interfaces.py:start():190] Started memory monitoring
+2023-04-06 10:07:34,006 INFO    SystemMonitor:15580 [interfaces.py:start():190] Started network monitoring
+2023-04-06 10:07:34,013 DEBUG   HandlerThread:15580 [system_info.py:_probe_git():180] Probing git
+2023-04-06 10:07:34,111 DEBUG   HandlerThread:15580 [system_info.py:_probe_git():188] Probing git done
+2023-04-06 10:07:34,111 DEBUG   HandlerThread:15580 [system_info.py:probe():240] Probing system done
+2023-04-06 10:07:34,111 DEBUG   HandlerThread:15580 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.9.16', 'heartbeatAt': '2023-04-06T08:07:33.996531', 'startedAt': '2023-04-06T08:07:30.875669', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'create_runs.ipynb', 'root': 'C:/Users/khabek/Documents/GitHub/WB-CI-CD-for-Machine-Learning--GitOps-', 'git': {'remote': 'https://github.com/khubak/WB-CI-CD-for-Machine-Learning--GitOps.git', 'commit': '4b9c84e2ec3f97049d44f1c7dd83e7f10912c02a'}, 'email': '103487011+khubak@users.noreply.github.com', 'host': 'Tokic575', 'username': 'khubak', 'executable': 'C:\\Users\\khabek\\Anaconda3\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1609.0, 'min': 0.0, 'max': 2112.0}, 'cpu_freq_per_core': [{'current': 1609.0, 'min': 0.0, 'max': 2112.0}], 'disk': {'total': 476.3264808654785, 'used': 93.65782928466797}, 'memory': {'total': 7.778663635253906}}
+2023-04-06 10:07:34,111 INFO    HandlerThread:15580 [system_monitor.py:probe():211] Finished collecting system info
+2023-04-06 10:07:34,111 INFO    HandlerThread:15580 [system_monitor.py:probe():214] Publishing system info
+2023-04-06 10:07:34,111 DEBUG   HandlerThread:15580 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-06 10:07:34,112 DEBUG   HandlerThread:15580 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-06 10:07:34,112 DEBUG   HandlerThread:15580 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-04-06 10:07:34,694 INFO    Thread-156:15580 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\files\requirements.txt
+2023-04-06 10:07:34,694 INFO    Thread-156:15580 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\files\conda-environment.yaml
+2023-04-06 10:07:56,520 DEBUG   HandlerThread:15580 [system_info.py:_save_conda():86] Saving conda packages done
+2023-04-06 10:07:56,521 INFO    HandlerThread:15580 [system_monitor.py:probe():216] Finished publishing system info
+2023-04-06 10:07:56,521 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: status_report
+2023-04-06 10:07:56,521 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-06 10:07:56,522 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: status_report
+2023-04-06 10:07:56,522 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-06 10:07:56,522 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: status_report
+2023-04-06 10:07:56,522 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-06 10:07:56,522 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: status_report
+2023-04-06 10:07:56,522 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-06 10:07:56,523 DEBUG   SenderThread:15580 [sender.py:send():375] send: files
+2023-04-06 10:07:56,523 INFO    SenderThread:15580 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-04-06 10:07:56,540 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-06 10:07:56,540 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: stop_status
+2023-04-06 10:07:56,929 INFO    Thread-156:15580 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\files\conda-environment.yaml
+2023-04-06 10:07:56,929 INFO    Thread-156:15580 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\files\wandb-metadata.json
+2023-04-06 10:07:57,162 DEBUG   SenderThread:15580 [sender.py:send():375] send: telemetry
+2023-04-06 10:07:57,162 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: status_report
+2023-04-06 10:07:57,163 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-06 10:07:57,163 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: log_artifact
+2023-04-06 10:07:57,637 INFO    wandb-upload_0:15580 [upload_job.py:push():137] Uploaded file C:\Users\khabek\AppData\Local\Temp\tmpgzg613ouwandb\uvrcfsgv-wandb-metadata.json
+2023-04-06 10:07:58,356 INFO    SenderThread:15580 [sender.py:send_request_log_artifact():1438] logged artifact dataset-0:v0 - {'id': 'QXJ0aWZhY3Q6NDE1MTk0NDkz', 'digest': '0ac9e88ecc1df61b2dd791e0947f7f83', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'dataset-0', 'alias': 'latest'}, {'artifactCollectionName': 'dataset-0', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYwODM5NjA5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDE1MTk0NDkz', 'versionIndex': 0}}, 'version': 'latest'}
+2023-04-06 10:07:58,362 DEBUG   SenderThread:15580 [sender.py:send():375] send: use_artifact
+2023-04-06 10:07:58,969 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-06 10:07:58,971 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: log_artifact
+2023-04-06 10:07:59,688 INFO    SenderThread:15580 [sender.py:send_request_log_artifact():1438] logged artifact dataset-2:v0 - {'id': 'QXJ0aWZhY3Q6NDE1MTk0NzM2', 'digest': 'b8cf6e2231174e306ac0345ecda7503a', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'dataset-2', 'alias': 'latest'}, {'artifactCollectionName': 'dataset-2', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYwODM5Njg5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDE1MTk0NzM2', 'versionIndex': 0}}, 'version': 'latest'}
+2023-04-06 10:07:59,693 DEBUG   SenderThread:15580 [sender.py:send():375] send: use_artifact
+2023-04-06 10:08:01,014 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-06 10:08:01,018 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: log_artifact
+2023-04-06 10:08:02,349 INFO    wandb-upload_0:15580 [upload_job.py:push():92] Skipped uploading C:\Users\khabek\AppData\Local\wandb\wandb\artifacts\staging\tmpwt6s4loz
+2023-04-06 10:08:02,349 INFO    wandb-upload_1:15580 [upload_job.py:push():92] Skipped uploading C:\Users\khabek\AppData\Local\wandb\wandb\artifacts\staging\tmpv6ae_9j6
+2023-04-06 10:08:03,073 INFO    wandb-upload_2:15580 [upload_job.py:push():95] Uploaded file C:\Users\khabek\AppData\Local\wandb\wandb\artifacts\staging\tmpjj3djgkz
+2023-04-06 10:08:04,210 INFO    SenderThread:15580 [sender.py:send_request_log_artifact():1438] logged artifact model-0 - {'id': 'QXJ0aWZhY3Q6NDE1MTk3NjM5', 'digest': '500fe384b9c32faab7a9a8d639bbdf64', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYwODM5OTQ0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDE1MTk2OTMz', 'versionIndex': 2}}, 'version': 'latest'}
+2023-04-06 10:08:04,219 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: status_report
+2023-04-06 10:08:05,017 INFO    Thread-156:15580 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\files\config.yaml
+2023-04-06 10:08:06,850 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-06 10:08:06,853 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: log_artifact
+2023-04-06 10:08:08,071 INFO    wandb-upload_0:15580 [upload_job.py:push():92] Skipped uploading C:\Users\khabek\AppData\Local\wandb\wandb\artifacts\staging\tmpylrvmlel
+2023-04-06 10:08:08,071 INFO    wandb-upload_1:15580 [upload_job.py:push():92] Skipped uploading C:\Users\khabek\AppData\Local\wandb\wandb\artifacts\staging\tmp3ka9rad1
+2023-04-06 10:08:08,811 INFO    wandb-upload_2:15580 [upload_job.py:push():95] Uploaded file C:\Users\khabek\AppData\Local\wandb\wandb\artifacts\staging\tmpoplbi96l
+2023-04-06 10:08:09,933 INFO    SenderThread:15580 [sender.py:send_request_log_artifact():1438] logged artifact model-1 - {'id': 'QXJ0aWZhY3Q6NDE1MTk3ODMy', 'digest': '8b083fdf0a29c5d56fcd2819073f9b8d', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYwODQwMDc4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDE1MTk2OTk4', 'versionIndex': 2}}, 'version': 'latest'}
+2023-04-06 10:08:09,934 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: status_report
+2023-04-06 10:08:11,550 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-06 10:08:11,551 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: stop_status
+2023-04-06 10:08:12,491 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-06 10:08:12,491 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: log_artifact
+2023-04-06 10:08:13,712 INFO    wandb-upload_0:15580 [upload_job.py:push():92] Skipped uploading C:\Users\khabek\AppData\Local\wandb\wandb\artifacts\staging\tmpw3y6ya_v
+2023-04-06 10:08:13,712 INFO    wandb-upload_1:15580 [upload_job.py:push():92] Skipped uploading C:\Users\khabek\AppData\Local\wandb\wandb\artifacts\staging\tmp3v_nmlt_
+2023-04-06 10:08:14,445 INFO    wandb-upload_2:15580 [upload_job.py:push():95] Uploaded file C:\Users\khabek\AppData\Local\wandb\wandb\artifacts\staging\tmpggzh_nba
+2023-04-06 10:08:15,561 INFO    SenderThread:15580 [sender.py:send_request_log_artifact():1438] logged artifact model-2 - {'id': 'QXJ0aWZhY3Q6NDE1MTk3OTA1', 'digest': 'b404a6bb7b793b4648a8fb87b6a8746f', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYwODQwMTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDE1MTk3MDgy', 'versionIndex': 2}}, 'version': 'latest'}
+2023-04-06 10:08:15,562 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: status_report
+2023-04-06 10:08:16,996 DEBUG   SenderThread:15580 [sender.py:send():375] send: telemetry
+2023-04-06 10:08:17,002 DEBUG   SenderThread:15580 [sender.py:send():375] send: exit
+2023-04-06 10:08:17,002 INFO    SenderThread:15580 [sender.py:send_exit():598] handling exit code: 0
+2023-04-06 10:08:17,002 INFO    SenderThread:15580 [sender.py:send_exit():600] handling runtime: 43
+2023-04-06 10:08:17,005 INFO    SenderThread:15580 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-06 10:08:17,006 INFO    SenderThread:15580 [sender.py:send_exit():606] send defer
+2023-04-06 10:08:17,006 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: defer
+2023-04-06 10:08:17,006 INFO    HandlerThread:15580 [handler.py:handle_request_defer():170] handle defer: 0
+2023-04-06 10:08:17,006 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: defer
+2023-04-06 10:08:17,007 INFO    SenderThread:15580 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-04-06 10:08:17,007 INFO    SenderThread:15580 [sender.py:transition_state():626] send defer: 1
+2023-04-06 10:08:17,007 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: defer
+2023-04-06 10:08:17,007 INFO    HandlerThread:15580 [handler.py:handle_request_defer():170] handle defer: 1
+2023-04-06 10:08:17,007 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: defer
+2023-04-06 10:08:17,007 INFO    SenderThread:15580 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-04-06 10:08:17,007 INFO    SenderThread:15580 [sender.py:transition_state():626] send defer: 2
+2023-04-06 10:08:17,007 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: defer
+2023-04-06 10:08:17,008 INFO    HandlerThread:15580 [handler.py:handle_request_defer():170] handle defer: 2
+2023-04-06 10:08:17,008 INFO    HandlerThread:15580 [system_monitor.py:finish():190] Stopping system monitor
+2023-04-06 10:08:17,009 DEBUG   SystemMonitor:15580 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-04-06 10:08:17,009 DEBUG   SystemMonitor:15580 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-04-06 10:08:17,009 DEBUG   SystemMonitor:15580 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-04-06 10:08:17,009 INFO    HandlerThread:15580 [interfaces.py:finish():202] Joined cpu monitor
+2023-04-06 10:08:17,009 INFO    HandlerThread:15580 [interfaces.py:finish():202] Joined disk monitor
+2023-04-06 10:08:17,009 INFO    HandlerThread:15580 [interfaces.py:finish():202] Joined memory monitor
+2023-04-06 10:08:17,010 INFO    HandlerThread:15580 [interfaces.py:finish():202] Joined network monitor
+2023-04-06 10:08:17,011 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: defer
+2023-04-06 10:08:17,011 INFO    SenderThread:15580 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-04-06 10:08:17,011 INFO    SenderThread:15580 [sender.py:transition_state():626] send defer: 3
+2023-04-06 10:08:17,011 DEBUG   SenderThread:15580 [sender.py:send():375] send: stats
+2023-04-06 10:08:17,011 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: defer
+2023-04-06 10:08:17,011 INFO    HandlerThread:15580 [handler.py:handle_request_defer():170] handle defer: 3
+2023-04-06 10:08:17,011 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: defer
+2023-04-06 10:08:17,012 INFO    SenderThread:15580 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-04-06 10:08:17,012 INFO    SenderThread:15580 [sender.py:transition_state():626] send defer: 4
+2023-04-06 10:08:17,012 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: defer
+2023-04-06 10:08:17,012 INFO    HandlerThread:15580 [handler.py:handle_request_defer():170] handle defer: 4
+2023-04-06 10:08:17,012 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: defer
+2023-04-06 10:08:17,012 INFO    SenderThread:15580 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-04-06 10:08:17,012 INFO    SenderThread:15580 [sender.py:transition_state():626] send defer: 5
+2023-04-06 10:08:17,012 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: defer
+2023-04-06 10:08:17,012 INFO    HandlerThread:15580 [handler.py:handle_request_defer():170] handle defer: 5
+2023-04-06 10:08:17,013 DEBUG   SenderThread:15580 [sender.py:send():375] send: summary
+2023-04-06 10:08:17,013 INFO    SenderThread:15580 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-06 10:08:17,014 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: defer
+2023-04-06 10:08:17,014 INFO    SenderThread:15580 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-04-06 10:08:17,014 INFO    SenderThread:15580 [sender.py:transition_state():626] send defer: 6
+2023-04-06 10:08:17,014 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: defer
+2023-04-06 10:08:17,014 INFO    HandlerThread:15580 [handler.py:handle_request_defer():170] handle defer: 6
+2023-04-06 10:08:17,015 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: defer
+2023-04-06 10:08:17,015 INFO    SenderThread:15580 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-04-06 10:08:17,016 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: status_report
+2023-04-06 10:08:17,122 INFO    Thread-156:15580 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\files\wandb-summary.json
+2023-04-06 10:08:17,313 INFO    SenderThread:15580 [sender.py:transition_state():626] send defer: 7
+2023-04-06 10:08:17,314 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: defer
+2023-04-06 10:08:17,314 INFO    HandlerThread:15580 [handler.py:handle_request_defer():170] handle defer: 7
+2023-04-06 10:08:17,315 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: defer
+2023-04-06 10:08:17,315 INFO    SenderThread:15580 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-04-06 10:08:17,315 INFO    SenderThread:15580 [sender.py:transition_state():626] send defer: 8
+2023-04-06 10:08:17,317 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: defer
+2023-04-06 10:08:17,317 INFO    HandlerThread:15580 [handler.py:handle_request_defer():170] handle defer: 8
+2023-04-06 10:08:17,318 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: defer
+2023-04-06 10:08:17,318 INFO    SenderThread:15580 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-04-06 10:08:17,319 INFO    SenderThread:15580 [sender.py:transition_state():626] send defer: 9
+2023-04-06 10:08:17,319 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: defer
+2023-04-06 10:08:17,320 INFO    HandlerThread:15580 [handler.py:handle_request_defer():170] handle defer: 9
+2023-04-06 10:08:17,320 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: defer
+2023-04-06 10:08:17,320 INFO    SenderThread:15580 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-04-06 10:08:17,320 INFO    SenderThread:15580 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-04-06 10:08:18,023 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-06 10:08:18,131 INFO    SenderThread:15580 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\files\config.yaml
+2023-04-06 10:08:18,133 INFO    SenderThread:15580 [dir_watcher.py:finish():395] scan: C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\files
+2023-04-06 10:08:18,134 INFO    SenderThread:15580 [dir_watcher.py:finish():409] scan save: C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\files\conda-environment.yaml conda-environment.yaml
+2023-04-06 10:08:18,134 INFO    SenderThread:15580 [dir_watcher.py:finish():409] scan save: C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\files\config.yaml config.yaml
+2023-04-06 10:08:18,140 INFO    SenderThread:15580 [dir_watcher.py:finish():409] scan save: C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\files\requirements.txt requirements.txt
+2023-04-06 10:08:18,144 INFO    SenderThread:15580 [dir_watcher.py:finish():409] scan save: C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\files\wandb-metadata.json wandb-metadata.json
+2023-04-06 10:08:18,144 INFO    SenderThread:15580 [dir_watcher.py:finish():409] scan save: C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\files\wandb-summary.json wandb-summary.json
+2023-04-06 10:08:18,147 INFO    SenderThread:15580 [sender.py:transition_state():626] send defer: 10
+2023-04-06 10:08:18,147 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: poll_exit
+2023-04-06 10:08:18,147 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: defer
+2023-04-06 10:08:18,148 INFO    HandlerThread:15580 [handler.py:handle_request_defer():170] handle defer: 10
+2023-04-06 10:08:18,152 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: defer
+2023-04-06 10:08:18,152 INFO    SenderThread:15580 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-04-06 10:08:18,153 INFO    SenderThread:15580 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-06 10:08:18,786 INFO    wandb-upload_0:15580 [upload_job.py:push():137] Uploaded file C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\files\conda-environment.yaml
+2023-04-06 10:08:19,050 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-06 10:08:19,050 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: poll_exit
+2023-04-06 10:08:19,172 INFO    wandb-upload_2:15580 [upload_job.py:push():137] Uploaded file C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\files\config.yaml
+2023-04-06 10:08:19,525 INFO    wandb-upload_1:15580 [upload_job.py:push():137] Uploaded file C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\files\requirements.txt
+2023-04-06 10:08:19,563 INFO    wandb-upload_3:15580 [upload_job.py:push():137] Uploaded file C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\files\wandb-summary.json
+2023-04-06 10:08:19,770 INFO    Thread-155:15580 [sender.py:transition_state():626] send defer: 11
+2023-04-06 10:08:19,770 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: defer
+2023-04-06 10:08:19,770 INFO    HandlerThread:15580 [handler.py:handle_request_defer():170] handle defer: 11
+2023-04-06 10:08:19,771 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: defer
+2023-04-06 10:08:19,771 INFO    SenderThread:15580 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-04-06 10:08:19,771 INFO    SenderThread:15580 [file_pusher.py:join():173] waiting for file pusher
+2023-04-06 10:08:19,771 INFO    SenderThread:15580 [sender.py:transition_state():626] send defer: 12
+2023-04-06 10:08:19,772 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: defer
+2023-04-06 10:08:19,772 INFO    HandlerThread:15580 [handler.py:handle_request_defer():170] handle defer: 12
+2023-04-06 10:08:19,772 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: defer
+2023-04-06 10:08:19,772 INFO    SenderThread:15580 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-04-06 10:08:20,049 INFO    SenderThread:15580 [sender.py:transition_state():626] send defer: 13
+2023-04-06 10:08:20,051 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: defer
+2023-04-06 10:08:20,051 INFO    HandlerThread:15580 [handler.py:handle_request_defer():170] handle defer: 13
+2023-04-06 10:08:20,052 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: defer
+2023-04-06 10:08:20,052 INFO    SenderThread:15580 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-04-06 10:08:20,052 INFO    SenderThread:15580 [sender.py:transition_state():626] send defer: 14
+2023-04-06 10:08:20,054 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: defer
+2023-04-06 10:08:20,054 DEBUG   SenderThread:15580 [sender.py:send():375] send: final
+2023-04-06 10:08:20,055 INFO    HandlerThread:15580 [handler.py:handle_request_defer():170] handle defer: 14
+2023-04-06 10:08:20,055 DEBUG   SenderThread:15580 [sender.py:send():375] send: footer
+2023-04-06 10:08:20,056 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: defer
+2023-04-06 10:08:20,057 INFO    SenderThread:15580 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-04-06 10:08:20,060 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-06 10:08:20,062 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: poll_exit
+2023-04-06 10:08:20,063 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-06 10:08:20,064 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: poll_exit
+2023-04-06 10:08:20,066 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: server_info
+2023-04-06 10:08:20,067 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: get_summary
+2023-04-06 10:08:20,069 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: sampled_history
+2023-04-06 10:08:20,070 DEBUG   SenderThread:15580 [sender.py:send_request():402] send_request: server_info
+2023-04-06 10:08:20,242 DEBUG   HandlerThread:15580 [handler.py:handle_request():144] handle_request: shutdown
+2023-04-06 10:08:20,242 INFO    HandlerThread:15580 [handler.py:finish():845] shutting down handler
+2023-04-06 10:08:21,081 INFO    WriterThread:15580 [datastore.py:close():298] close: C:\Users\khabek\Documents\GitHub\WB-CI-CD-for-Machine-Learning--GitOps-\wandb\run-20230406_100730-bmv4lo5l\run-bmv4lo5l.wandb
+2023-04-06 10:08:21,253 INFO    SenderThread:15580 [sender.py:finish():1550] shutting down sender
+2023-04-06 10:08:21,253 INFO    SenderThread:15580 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-06 10:08:21,253 INFO    SenderThread:15580 [file_pusher.py:join():173] waiting for file pusher

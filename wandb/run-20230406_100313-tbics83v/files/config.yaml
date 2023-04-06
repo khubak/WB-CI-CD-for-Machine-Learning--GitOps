@@ -1,0 +1,38 @@
+wandb_version: 1
+
+optimizer:
+  desc: null
+  value: sgd
+encoder:
+  desc: null
+  value: resnet50
+learning_rate:
+  desc: null
+  value: 0.01
+momentum:
+  desc: null
+  value: 0.0569104418644285
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.16
+    cli_version: 0.14.1
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1680768194.012644
+    t:
+      1:
+      - 55
+      2:
+      - 55
+      3:
+      - 2
+      - 13
+      - 16
+      - 23
+      4: 3.9.16
+      5: 0.14.1
+      8:
+      - 1
+      - 3
+      - 5

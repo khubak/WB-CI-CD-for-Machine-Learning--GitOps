@@ -1,0 +1,41 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-04-06T08:03:16.202292",
+    "startedAt": "2023-04-06T08:03:13.976173",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "create_runs.ipynb",
+    "root": "C:/Users/khabek/Documents/GitHub/WB-CI-CD-for-Machine-Learning--GitOps-",
+    "git": {
+        "remote": "https://github.com/khubak/WB-CI-CD-for-Machine-Learning--GitOps.git",
+        "commit": "4b9c84e2ec3f97049d44f1c7dd83e7f10912c02a"
+    },
+    "email": "103487011+khubak@users.noreply.github.com",
+    "host": "Tokic575",
+    "username": "khubak",
+    "executable": "C:\\Users\\khabek\\Anaconda3\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1609.0,
+        "min": 0.0,
+        "max": 2112.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1609.0,
+            "min": 0.0,
+            "max": 2112.0
+        }
+    ],
+    "disk": {
+        "total": 476.3264808654785,
+        "used": 93.6520004272461
+    },
+    "memory": {
+        "total": 7.778663635253906
+    }
+}
