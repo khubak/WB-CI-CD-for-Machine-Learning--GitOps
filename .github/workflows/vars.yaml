@@ -16,7 +16,12 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - name: see payload # this step is for debugging purposes only, so you can see
+      - name: see payload # this step is for debugging purposes only
         run: echo -e "PAYLOAD:\n $PAYLOAD \n"
         env:
           PAYLOAD: ${{ toJSON(github.event) }}
+      - name: print something from the payload
+        run: echo -e "${PUSHER} pushed this their email is ${EMAIL}"
+        env:
+          PUSHER: ${{ github.event.pusher.name }}
+          EMAIL: ${{ github.event.pusher.email }}
