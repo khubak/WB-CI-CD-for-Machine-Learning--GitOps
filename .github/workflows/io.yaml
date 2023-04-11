@@ -8,11 +8,13 @@ jobs:
       - name: hello
         id: set-var
         shell: python
-        run:  |
+        run: |
           import os
-          with open(os.environ['GITHUB_OUTPUT'], 'a' as f:
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
             print(f'VAL=true', file=f)
-      
+      - name: print value
+        run: echo "the value is ${{ steps.set-var.outputs.VAL }}"
+
 
       #- name: print value of magic command
       #  if: steps.get-magic-value.outcome === 'success' && steps.get-magic-value.outputs.VAL_FOUND == 'true'
