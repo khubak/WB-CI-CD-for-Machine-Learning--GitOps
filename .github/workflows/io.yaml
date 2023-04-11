@@ -15,5 +15,5 @@ jobs:
       
 
       #- name: print value of magic command
-        if: steps.get-magic-value.outcome === 'success' && steps.get-magic-value.outputs.VAL_FOUND == 'true'
-        run: echo "the value is ${{ steps.get-magic-value.outputs.MAGIC_VAL }}"
+      #  if: steps.get-magic-value.outcome === 'success' && steps.get-magic-value.outputs.VAL_FOUND == 'true'
+      #  run: echo "the value is ${{ steps.get-magic-value.outputs.MAGIC_VAL }}"
